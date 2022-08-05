@@ -1,4 +1,15 @@
-![_⚛️Higgs_Boson_Classifier](https://user-images.githubusercontent.com/62103572/183050158-52a3122b-35c2-4357-929a-f568c7a0ec38.png)
+<p align="center">
+  <img alt="⚛️Higgs_Boson_Classifier" src="https://user-images.githubusercontent.com/62103572/183050158-52a3122b-35c2-4357-929a-f568c7a0ec38.png">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data">
+  <img alt="GitHub code size" src="https://img.shields.io/github/languages/code-size/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data">
+  <img alt="GitHub follow" src="https://img.shields.io/github/followers/EliaFantini?label=Follow">
+  <img alt="GitHub fork" src="https://img.shields.io/github/forks/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data?label=Fork">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data?abel=Watch">
+  <img alt="GitHub star" src="https://img.shields.io/github/stars/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data?style=social">
+</p>
+
 # AIcrowd ML Higgs
 The Higgs boson is an elementary particle in the Standard Model of physics which explains why other particles
 have mass. Its discovery at the Large Hadron Collider at CERN was announced in March 2013. In this project,
