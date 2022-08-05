@@ -1,3 +1,4 @@
+![_⚛️Higgs_Boson_Classifier](https://user-images.githubusercontent.com/62103572/183050158-52a3122b-35c2-4357-929a-f568c7a0ec38.png)
 # AIcrowd ML Higgs
 The Higgs boson is an elementary particle in the Standard Model of physics which explains why other particles
 have mass. Its discovery at the Large Hadron Collider at CERN was announced in March 2013. In this project,
