@@ -31,57 +31,60 @@ techniques and compared their performance with hyperparameters tuning and cross 
 
 <img width="600" alt="Hbb_v2" src="https://user-images.githubusercontent.com/62103572/183052578-ba8910b8-ba31-46d8-b5b0-96048ff90941.png">
 
-## Requirements
 
+## Authors 
+-  [Anastasiia Filippova](https://github.com/nastya236)
+-  [Elia Fantini](https://github.com/EliaFantini)
+-  [Narek Alvandian](https://github.com/narekvslife)
+
+## How to install and reproduce results
+Download this repository as a zip file and extract it into a folder
 The easiest way to run the code is to install
-Anaconda distribution (available for Windows, macOS and
+Anaconda 3 distribution (available for Windows, macOS and
 Linux). To do so, follow the guidelines from the official
 website (select python of version 3): https://www.anaconda.com/download/
 
-Additional potential package versions are specified in the requirements.txt
+Additional package versions are specified in the *requirements.txt* file , you can just run the following command on Anaconda Prompt (anaconda3):
+```shell
+cd *THE_FOLDER_PATH_WHERE_YOU_DOWNLOADED_AND_EXTRACTED_THIS_REPOSITORY*
+conda install --file requirements.txt
+```
+Download the training and testing datasets [here](https://www.aicrowd.com/challenges/epfl-machine-learning-higgs/dataset_files) (logging into AICrowd might be required to download)
 
-## File description
+Then, just run run.py with the following command to train and test the model:
+```shell
+python run.py
+```
 
-- experiments/experiments_models.ipynb 
+## Files description
 
-This Jupyter notebook contains our cross validation and hyperparameter experiments with different models
+- **experiments/experiments_models.ipynb** : this Jupyter notebook contains our cross validation and hyperparameter experiments with different models
 
-- experiments/experiments_preprocesing.ipynb
+- **experiments/experiments_preprocesing.ipynb**: this Jupyter notebook contains our experiments with different preprocessing techniques
 
-This Jupyter notebook contains our experiments with different preprocessing techniques
+- **experiments/generate_graphs.ipynb**: notebook that generates the graphs for the paper
 
-- experiments/generate_graphs.ipynb
+- **helper.py**: contains helper functions which were used for setting up our experiments  
 
-Notebook that generates the graphs for the paper
+- **implementations.py**: contains 6 default required funcitons + additional minimization algorithms, and accoring loss funcitons 
 
-- helper.py
+- **metrics.py**: contains our implementations of different metrics
 
-Contains helper functions which were used for setting up our experiments  
+- **preprocessing.py**: contains methods for the preprocessing of data 
 
-- implementations.py
+- **report.pdf**: pdf with the report of the project
 
-Contains 6 default required funcitons + additional minimization algorithms, and accoring loss funcitons 
+- **run.py**: contains the code for reproducing our best submission file
 
-- metrics.py
+- **utils.py**: miscellaneous other functions, e.g. loading data, splitting it, etc..
 
-Contains our implementations of different metrics
+- **requirements.txt**: file which includes package requirements for running the code
 
-- preprocessing.py
+## Others
+For further details on the implementation choice and the experiments, please read the *report.pdf* file.
+## 🛠 Skills
+Python, PyTorch, Matplotlib, Jupyter Notebooks. Machine learning, Logistic Regression, analysis of the impact of different preprocessing techniques on training, shallow modelling, plotting the experiments, ensuring reproducibility.
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/EliaFantini/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-elia-fantini/)
 
-Contains methods for the preprocessing of data 
-
-- run.py
-
-Contains the code for reproducing our best submission file
-
-- utils.py
-
-Miscellaneous other functions, e.g. loading data, splitting it, etc..
-
-- requirements.txt
-
-File which includes package requirements for running the code
-
-## Reproducing results
-
-To reproduce our final submission results, simply run `python run.py` with according conda environment activated
