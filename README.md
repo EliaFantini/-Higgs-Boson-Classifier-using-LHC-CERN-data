@@ -10,17 +10,27 @@
   <img alt="GitHub star" src="https://img.shields.io/github/stars/EliaFantini/-Higgs-Boson-Classifier-using-LHC-CERN-data?style=social">
 </p>
 
-# AIcrowd ML Higgs
+
+This project aims at classifying the decay signature of events measured by the Large Hadron Collider at CERN, predicting whether it's the one of a Higgs Boson or not, thanks to Logistic Regression.
+
+The problem was part of a Machine Learning [challenge from AICrowd](https://www.aicrowd.com/challenges/epfl-machine-learning-higgs). Our team, called pasta-balalaika, reached the position 50/307 on the leaderboard, with an F1 score of *0.910* and an accuracy	of *0.952*. This project was also done as an assignment of the EPFL course [CS-433 Machine Learning](https://edu.epfl.ch/coursebook/en/machine-learning-CS-433).
+
+## Higgs Boson
 The Higgs boson is an elementary particle in the Standard Model of physics which explains why other particles
-have mass. Its discovery at the Large Hadron Collider at CERN was announced in March 2013. In this project,
-we applied machine learning techniques to actual CERN particle accelerator data to recreate the process of
+have mass. Its discovery at the Large Hadron Collider at CERN was announced in March 2013. 
+
+In this project, we applied machine learning techniques to actual CERN particle accelerator data to recreate the process of
 “discovering” the Higgs particle. Physicists at CERN smash protons into one another at
 high speeds to generate even smaller particles as by-products of the collisions. Rarely, these collisions can produce
 a Higgs boson. Since the Higgs boson decays rapidly into other particles, scientists don’t observe it directly,
-but rather measure its “decay signature”, or the products that result from its decay process. Since many decay
-signatures look similar, we estimated the likelihood that a given event’s signature was the result of a
+but rather measure its “decay signature”, or the products that result from its decay process. 
+
+Since many decay signatures look similar, we estimated the likelihood that a given event’s signature was the result of a
 Higgs boson (signal) or some other process/particle (background). To do this, we implemented a pre-processing pipeline and different binary classification
 techniques and compared their performance with hyperparameters tuning and cross validation.
+
+<img width="600" alt="Hbb_v2" src="https://user-images.githubusercontent.com/62103572/183052578-ba8910b8-ba31-46d8-b5b0-96048ff90941.png">
+
 ## Requirements
 
 The easiest way to run the code is to install
