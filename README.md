@@ -85,6 +85,6 @@ For further details on the implementation choice and the experiments, please rea
 ## 🛠 Skills
 Python, PyTorch, Matplotlib, Jupyter Notebooks. Machine learning, Logistic Regression, analysis of the impact of different preprocessing techniques on training, shallow modelling, plotting the experiments, ensuring reproducibility.
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/EliaFantini/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://eliafantini.github.io/Portfolio/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-elia-fantini/)
 
