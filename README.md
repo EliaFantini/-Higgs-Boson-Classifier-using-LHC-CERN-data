@@ -13,7 +13,7 @@
 
 This project aims at classifying the decay signature of events measured by the Large Hadron Collider at CERN, predicting whether it's the one of a Higgs Boson or not, thanks to Logistic Regression.
 
-The problem was part of a Machine Learning [challenge from AICrowd](https://www.aicrowd.com/challenges/epfl-machine-learning-higgs). Our team, called pasta-balalaika, reached the position 50/307 on the leaderboard, with an F1 score of *0.910* and an accuracy	of *0.952*. This project was also done as an assignment of the EPFL course [CS-433 Machine Learning](https://edu.epfl.ch/coursebook/en/machine-learning-CS-433).
+The problem was part of a Machine Learning [challenge from AICrowd](https://www.aicrowd.com/challenges/epfl-machine-learning-higgs). Our team, called pasta-balalaika, reached the position 50/307 on the leaderboard, with an F1 score of *0.74* and an accuracy	of *0.82*. This project was also done as an assignment of the EPFL course [CS-433 Machine Learning](https://edu.epfl.ch/coursebook/en/machine-learning-CS-433).
 
 ## Higgs Boson
 The Higgs boson is an elementary particle in the Standard Model of physics which explains why other particles
